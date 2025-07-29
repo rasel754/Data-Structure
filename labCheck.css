@@ -1,0 +1,2 @@
+ #include<iostream>
+int linearSearch(int arr[],int size)
