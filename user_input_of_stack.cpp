@@ -35,21 +35,26 @@ public:
 int main()
 {
     myStack st;
-    st.push(10);
-    st.push(20);
-    st.push(30);
+    
+    int n;
+    cin>>n;
 
-    cout << st.top() << endl;
-    st.pop();
-    cout << st.top() << endl;
-    st.pop();
-    cout << st.top() << endl;
-    st.pop();
-    if (!st.empty())
+    for (int  i = 0; i < n ; i++)
     {
-        cout << st.top() << endl;
+        int x;
+        cin>>x;
+        st.push(x);
+    }
+    //print stack 
+
+    while (!st.empty()) // after printing or accessing the value will be deleted from stack
+    
+    {
+        cout<<st.top()<< " ";
         st.pop();
     }
+    
+    
 
     return 0;
 }
