@@ -1,30 +1,32 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <set>
 using namespace std;
-int main(){
-    int t;
-    cin>>t;
 
-    while (t--)
+int main()
+{
+    int T;
+    cin >> T;
+
+    while (T--)
     {
-        int n; 
-        cin>>n;
-        int a[n];
-        for(int i=0; i<n; i++){
-            cin>>a[i];
+        int N;
+        cin >> N;
+
+        set<int> s;
+
+        for (int i = 0; i < N; i++)
+        {
+            int x;
+            cin >> x;
+            s.insert(x);
         }
-        int flag=0;
-        for(int i=1; i<n; i++){
-            if(a[i]<a[i-1]){
-                flag=1;
-                break;
-            }
+
+        for (auto val : s)
+        {
+            cout << val << " ";
         }
-        if(flag==1){
-            cout<<"NO"<<endl;
-        }else{
-            cout<<"YES"<<endl;
-        }
+        cout << endl;
     }
-    
+
     return 0;
 }
