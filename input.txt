@@ -1,5 +1,1 @@
-4
-rasel 1143 60
-shakib 1098 87
-milon 1133 59
-kalam 1192 60
+I love coding because coding is fun and solving problems makes me happy. I enjoy learning new programming languages like Python, JavaScript, and Java. Every day I practice coding challenges to improve problem-solving skills. Sometimes I read about algorithms, sometimes I study data structures, and sometimes I build projects. Building projects helps me understand concepts better and gives me confidence. I also like sharing knowledge with others because teaching is a great way to learn. In my free time, I watch tutorials, read blogs, and experiment with code. The more I practice, the more I love coding and technology
